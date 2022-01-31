@@ -1,0 +1,58 @@
+import java.util.String;
+public class JavaStrings{
+   public static void main(String[] args)
+     {
+       String Str1="Java pool refers to the collection of strings which are stored in the heap memory";
+      
+       Sysytem.out.println(Str1.toLowerCase);
+       Sysytem.out.println(Str1.toUpperCase);
+       String replaceString=str1.replace('a','$');
+       System.out.println(Str1);
+       
+     }
+}
+
+
+
+
+--------------------------------------------------
+public class Main {
+	public static void main(String[] args){
+		String str = "Java pool refers to the collection of strings which are stored in the heap memory";
+		System.out.println(str);
+		// find word in String
+		String find = "Collection";
+		boolean val = str.contains(find);
+		if(val)
+			System.out.println("String found: "+find);
+		else 
+			System.out.println("string not found");
+	}
+}
+
+
+---------------------------------------------------------
+import java.util.String;
+public class JavaStrings{
+   public static void main(String[] args)
+     {
+       String Str1="Java pool refers to the collection of strings which are stored in the heap memory";
+       String Str2="Java pool refers to the collection of strings which are stored in the heap memory";
+       System.out.println(Str1.compareTo(Str2));
+   }
+}
+
+
+------------------------------------------------
+
+
+public class BufferTest{  
+    public static void main(String[] args){  
+        StringBuffer buffer=new StringBuffer("String Buffer");  
+        buffer.append("The functionality");  
+        System.out.println(buffer);  
+    }  
+}  
+
+
+

@@ -1,0 +1,9 @@
+import java.util.String;
+public class JavaStrings{
+   public static void main(String[] args)
+     {
+       String Str1="Hello";
+       String Str2="World";
+       Sysytem.out.println("Str1+Str2);
+     }
+}
